@@ -15,11 +15,11 @@ apt install
 
 **Code with RTL Layout**:
 
-![Without Plugin](../ScreenshotWithoutPlugIn.png)
+![Without Plugin](../main/ScreenshotWithoutPlugIn.png)
 
 **Code with LTR Layout**:
 
-![With Plugin](../ScreenshotWithPlugIn.png)
+![With Plugin](../main/ScreenshotWithPlugIn.png)
 
 # How to use it with astro?
 
