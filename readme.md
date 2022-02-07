@@ -6,19 +6,20 @@ npm i rehype-code-ltr
 
 # What is this?
 
-rehpye plugin add `dir="ltr"`attribute automatically to `<code>` HtmlElement, this is helpful when you have page that include RTL Layout, for example a blog and you need to show a code snippet
+rehpye plugin add `dir="ltr"`attribute automatically to `<code>` HtmlElement, this is helpful when you have page that include RTL Layout, for example a blog and you need to show a code snippet correctly
 
-**Code with RTL Layout**
-<code dir="rtl">
-// JavaScript Regex Shorthand Syntax...
-/\d+/ig
-</code>
 
-**Code with LTR Layout**
-<code dir="ltr">
-// JavaScript Regex Shorthand Syntax...
-/\d+/ig
-</code>
+```
+apt install
+```
+
+**Code with RTL Layout**:
+
+![Without Plugin](../ScreenshotWithoutPlugIn.png)
+
+**Code with LTR Layout**:
+
+![With Plugin](../ScreenshotWithPlugIn.png)
 
 # How to use it with astro?
 
