@@ -15,11 +15,11 @@ apt install
 
 **Code with RTL Layout**:
 
-![Without Plugin](../main/ScreenshotWithoutPlugIn.png)
+![Without Plugin](https://github.com/X7md/rehype-code-ltr/blob/main/ScreenshotWithoutPlugIn.png)
 
 **Code with LTR Layout**:
 
-![With Plugin](../main/ScreenshotWithPlugIn.png)
+![With Plugin](https://github.com/X7md/rehype-code-ltr/blob/main/ScreenshotWithPlugIn.png)
 
 # How to use it with astro?
 
