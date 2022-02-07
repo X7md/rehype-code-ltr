@@ -10,7 +10,7 @@ rehpye plugin add `dir="ltr"`attribute automatically to `<code>` HtmlElement, th
 
 
 ```
-apt install...
+apt install ...
 ```
 
 **Code with RTL Layout**:
