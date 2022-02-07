@@ -33,13 +33,13 @@ apt install
 markdownOptions: {
     render: [
 	    '@astrojs/markdown-remark',
-		    {
+		{
             rehypePlugins: [
                 ...
                 // add this
                 ['rehype-code-ltr'],
             ]
-		    },
+		},
 	],
 	}
 ...
