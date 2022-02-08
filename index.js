@@ -15,7 +15,7 @@ import replaceExt from 'replace-ext'
 /**
  * @type {import('unified').Plugin<[Options?] | Array<void>, Root>}
  */
-export default function rehypeCodeRtl(options) {
+export default function rehypeCodeLtr(options) {
   const settings = options || {}
 
   return (tree) => {
@@ -30,13 +30,12 @@ export default function rehypeCodeRtl(options) {
 
       /** @type {Element['children']} */
       const nodes = []
-      /** @type {string} */
-      let key
-
+        node.properties["dir"] = "ltr"
+        node.properties["class"] ? node.properties["class"] += " inline-code" : node.properties["class"] = "inline-code"
       /** @type {Element} */
-      node.properties["dir"] = "ltr"
       const replacement = node
       parent.children[index] = replacement
+
     })
   }
 }

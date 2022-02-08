@@ -1,6 +1,6 @@
 {
   "name": "rehype-code-ltr",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "rehype plugin add dir='ltr' attribute",
   "license": "MIT",
   "keywords": [
@@ -9,8 +9,10 @@
     "rehype-plugin",
     "hast",
     "html",
-    "code",
-    "code snippet"
+    "img",
+    "image",
+    "figure",
+    "picture"
   ],
   "repository": "x7md/rehype-code-ltr",
   "bugs": "https://github.com/x7md/rehype-code-ltr/issues",

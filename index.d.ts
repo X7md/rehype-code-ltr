@@ -1,7 +1,7 @@
 /**
  * @type {import('unified').Plugin<[Options?] | Array<void>, Root>}
  */
-export default function rehypeCodeRtl(
+export default function rehypeCodeLtr(
   options: void | Options | undefined
 ):
   | void
